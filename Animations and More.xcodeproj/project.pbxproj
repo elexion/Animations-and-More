@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		293D15492C48075C00A5C883 /* swipeContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293D15482C48075C00A5C883 /* swipeContentView.swift */; };
 		298EF16A2C231A3900A21412 /* WishListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298EF1692C231A3900A21412 /* WishListView.swift */; };
 		298EF16C2C231A5D00A21412 /* WishListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298EF16B2C231A5D00A21412 /* WishListModel.swift */; };
 		298EF16F2C236B6900A21412 /* AnimationContentview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 298EF16E2C236B6900A21412 /* AnimationContentview.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		293D15482C48075C00A5C883 /* swipeContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swipeContentView.swift; sourceTree = "<group>"; };
 		298EF1692C231A3900A21412 /* WishListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListView.swift; sourceTree = "<group>"; };
 		298EF16B2C231A5D00A21412 /* WishListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListModel.swift; sourceTree = "<group>"; };
 		298EF16E2C236B6900A21412 /* AnimationContentview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationContentview.swift; sourceTree = "<group>"; };
@@ -91,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		293D15472C48073900A5C883 /* SwipeContent */ = {
+			isa = PBXGroup;
+			children = (
+				293D15482C48075C00A5C883 /* swipeContentView.swift */,
+			);
+			path = SwipeContent;
+			sourceTree = "<group>";
+		};
 		298EF1682C231A1500A21412 /* Wishlist */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +151,7 @@
 		299980CD2C10A2B50029AD3F /* Animations and More */ = {
 			isa = PBXGroup;
 			children = (
+				293D15472C48073900A5C883 /* SwipeContent */,
 				298EF1722C236DD700A21412 /* HomeScreen */,
 				298EF16D2C236B2F00A21412 /* AnimationContent */,
 				298EF1682C231A1500A21412 /* Wishlist */,
@@ -252,6 +263,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
@@ -330,6 +344,7 @@
 				298EF16F2C236B6900A21412 /* AnimationContentview.swift in Sources */,
 				298EF1712C236B7B00A21412 /* AnimationContentModel.swift in Sources */,
 				298EF1742C236DF000A21412 /* HomeScreenModel.swift in Sources */,
+				293D15492C48075C00A5C883 /* swipeContentView.swift in Sources */,
 				299980FF2C10A36A0029AD3F /* MainContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
